@@ -1,0 +1,142 @@
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Lauren Kearns</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body id="about-page">
+
+    <div id="global-header"></div>
+  
+  <!-- Overlapping About Section -->
+<section class="about">
+  <div class="project-container">
+    <div class="project-card">
+      <h3>Design with Intention</h3>
+      <section class="about-section">
+  <section class="about-section">
+    <p>
+        I’m a Learning Experience Designer focused on designing and building engaging, interactive experiences.
+    </p>
+
+    <p>
+        I take ideas from concept through to fully developed solutions, shaping content, designing interactions, and creating experiences that are clear, intuitive, and easy to navigate.
+    </p>
+
+    <p>
+        My work is grounded in thoughtful structure and purposeful design, with a focus on how users move through an experience and engage with information.
+    </p>
+
+    <p>
+        I’m particularly interested in UX and UI design, exploring how layout, flow, and visual hierarchy contribute to intuitive and well-crafted digital experiences.
+    </p>
+
+</section>
+
+</section>
+      <a href="#" class="btn">CONTACT ME</a>
+    </div>
+
+    <div class="project-image">
+      <img src="images/about_2.jpg" alt="about-image">
+    </div>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section class="at-a-glance">
+  <div class="glance-header">
+    <h2>At a Glance</h2>
+    <a href="files/lk-resume.pdf" class="btn-outline" download>DOWNLOAD RESUME</a>
+  </div>
+
+  <div class="glance-container">
+    
+    <div class="glance-row">
+      <div class="glance-label">
+        <h3>Education</h3>
+      </div>
+      <div class="glance-details">
+        <ul class="glance-list">
+          <li>
+            <strong>Bachelor of Commerce (Honours) in Organisational Psychology</strong>
+            <span>University of South Africa (UNISA)</span>
+          </li>
+          <li>
+            <strong>Bcom (Gen) in IOP and Information Systems</strong>
+            <span>University of the Western Cape (UWC)</span>
+          </li>
+          <li>
+            <strong>National Certificate in Design Techniques</strong>
+            <span>Academic Institute of Excellence (AIE)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="glance-row">
+      <div class="glance-label">
+        <h3>Skills</h3>
+      </div>
+      <div class="glance-details">
+        <ul class="glance-list">
+          <li><strong>Instructional Design & eLearning Development</strong></li>
+          <li><strong>Visual Design</strong></li>
+          <li><strong>Learning Management Administration</strong></li>
+          <li><strong>Storyboarding & Script Writing</strong></li>
+          <li><strong>User Experience (UX) for Learning</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="glance-row">
+      <div class="glance-label">
+        <h3>Toolkit</h3>
+      </div>
+      <div class="glance-details">
+        <ul class="glance-list">
+          <li><strong>Articulate Rise</strong></li>
+          <li><strong>Articulate Storyline</strong></li>
+          <li><strong>Vyond</strong></li>
+          <li><strong>Canva</strong></li>
+          <li><strong>Figma and Adobe XD</strong></li>
+          <li><strong>Microsoft Office & Google Suite</strong></li>
+          <li><strong>ChatGPT & Gemini</strong></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<section class="connect-section">
+    <h3>Let’s Connect.</h3>
+    <div class="social-icons">
+        <!-- LinkedIn Style "in" -->
+        <a href="#" class="icon-link linkedin">in</a>
+        
+        <!-- Mail Icon -->
+        <a href="mailto:your@email.com" class="icon-link">
+            <svg xmlns="http://www.w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </a>
+    </div>
+</section>
+
+
+<script>
+
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('global-header').innerHTML = data;
+    });
+
+</script>
+
+</body>
+</html>
